@@ -1,0 +1,22 @@
+{
+  "chain_id": 56,
+  "config": {
+    "confirmation_lag": 3,
+    "lookback_blocks": 40,
+    "mode": "spot_long_only",
+    "paper": true,
+    "top_k": 2
+  },
+  "feature_version": "bsc_microstructure.v0",
+  "label_version": "none.v0",
+  "model_version": "none.v0",
+  "pools": [],
+  "quality": "source_unavailable",
+  "ranking_metric": "h24_volume_usd",
+  "ranking_provider": "geckoterminal_bootstrap",
+  "reason_codes": [
+    "source_unavailable"
+  ],
+  "run_id": "bsc-1785064251-62babb6a",
+  "source": "geckoterminal+bsc_rpc"
+}

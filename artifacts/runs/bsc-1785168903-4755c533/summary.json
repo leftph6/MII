@@ -1,0 +1,415 @@
+{
+  "chain_id": 56,
+  "config": {
+    "confirmation_lag": 3,
+    "lookback_blocks": 40,
+    "mode": "spot_long_only",
+    "paper": true,
+    "top_k": 3
+  },
+  "decision_position": {
+    "block_number": 112464325,
+    "log_index": 2147483647,
+    "transaction_index": 2147483647
+  },
+  "decision_time": "2026-07-27T16:14:59+00:00",
+  "feature_version": "bsc_microstructure.v0",
+  "label_version": "none.v0",
+  "model_version": "none.v0",
+  "pools": [
+    {
+      "data_cutoff": {
+        "block_number": 112464325,
+        "log_index": 633,
+        "transaction_index": 110
+      },
+      "decision": {
+        "paper": true,
+        "reason_codes": [
+          "risk_unknown"
+        ],
+        "status": "no_trade"
+      },
+      "decision_time": "2026-07-27T16:14:59+00:00",
+      "features": {
+        "buy_count": 0.0,
+        "event_density": 0.05,
+        "failure_count": 0.0,
+        "mid_price": 23.771959155852276,
+        "ofi_net_flow": -2.0,
+        "price_impact_proxy": 0.055763221123145156,
+        "reserve0": 8.970221687405587e+23,
+        "reserve1": 2.132397435719459e+25,
+        "sell_count": 2.0,
+        "swap_count": 2.0,
+        "token0_flow": -5.0020845547843005e+22,
+        "token1_flow": 1.188551325595591e+24
+      },
+      "horizon_end": "2026-07-27T16:19:59+00:00",
+      "pool": {
+        "address": "0x141402b93584f72b1a56fdfa79fd600c73d2ecc8",
+        "base_symbol": null,
+        "base_token": "0x55d398326f99059ff775485246999027b3197955",
+        "dex_id": "pancakeswap_v2",
+        "dex_name": "PancakeSwap V2",
+        "display_only": true,
+        "liquidity_usd": null,
+        "network": "bsc",
+        "observed_at": "manual_selection",
+        "pair_name": null,
+        "provider_rank": 1,
+        "quote_symbol": null,
+        "quote_token": "0xaa4d469d07ea97b56eb860ca7bc6a498969245c4",
+        "ranking_metric": "h24_volume_usd",
+        "ranking_provider": "manual",
+        "transactions_24h": null,
+        "volume_24h_usd": null
+      },
+      "prediction": {
+        "abstain": true,
+        "actions": [
+          "buy_quote_to_token",
+          "sell_token_to_quote",
+          "add_liquidity",
+          "remove_liquidity",
+          "transfer",
+          "no_observed_action",
+          "unknown"
+        ],
+        "calibration_status": "uncalibrated",
+        "feature_version": "bsc_microstructure.v0",
+        "intents": [
+          "accumulation",
+          "distribution",
+          "take_profit",
+          "stop_loss_or_exit",
+          "hedging",
+          "market_making_inventory",
+          "liquidity_migration",
+          "mev_extraction",
+          "inducement_manipulation_hypothesis",
+          "project_treasury_management",
+          "unknown_multi"
+        ],
+        "label_version": "none.v0",
+        "model_version": "none.v0",
+        "reason_codes": [
+          "abstain_no_labels"
+        ],
+        "roles": [
+          "lp_market_maker",
+          "information_driven",
+          "arbitrageur",
+          "momentum_speculator",
+          "mean_reversion",
+          "project_treasury",
+          "infrastructure",
+          "mev_candidate",
+          "forced_exit_candidate",
+          "unknown_mixed"
+        ]
+      },
+      "reason_codes": [
+        "abstain_no_labels"
+      ],
+      "recent_swaps": [
+        {
+          "amount0_in": 0,
+          "amount0_out": 26271960129725000000000,
+          "amount1_in": 607709075912535869564667,
+          "amount1_out": 0,
+          "block_number": 112464309,
+          "event_time": "2026-07-27T16:14:52+00:00",
+          "log_index": 287,
+          "transaction_index": 43
+        },
+        {
+          "amount0_in": 0,
+          "amount0_out": 23748885418118000000000,
+          "amount1_in": 580842249683055161114241,
+          "amount1_out": 0,
+          "block_number": 112464325,
+          "event_time": "2026-07-27T16:14:59+00:00",
+          "log_index": 633,
+          "transaction_index": 110
+        }
+      ],
+      "risk": {
+        "holder_concentration": "not_supported",
+        "honeypot_screen": "not_supported",
+        "lp_withdrawal": "not_supported",
+        "mint_authority": "not_supported",
+        "owner_control": "not_supported",
+        "pause_authority": "not_supported",
+        "sellability": "not_supported",
+        "token_transfer_restriction": "not_supported",
+        "transfer_tax": "not_supported"
+      },
+      "rpc_verified": true,
+      "target_definition": "next_observed_action",
+      "verification": {
+        "factory": "0xca143ce32fe78f1f7019d7d551a6402fc5350c73",
+        "reserve0": 897022168740558744966285,
+        "reserve1": 21323974357194587639524379,
+        "router": "0x10ed43c718714eb63d5aa57b78b54704e256024e",
+        "token0": "0x55d398326f99059ff775485246999027b3197955",
+        "token1": "0xaa4d469d07ea97b56eb860ca7bc6a498969245c4",
+        "verified": true
+      }
+    },
+    {
+      "data_cutoff": {
+        "block_number": 112464325,
+        "log_index": 0,
+        "transaction_index": 0
+      },
+      "decision": {
+        "paper": true,
+        "reason_codes": [
+          "insufficient_data"
+        ],
+        "status": "abstain"
+      },
+      "decision_time": "2026-07-27T16:14:59+00:00",
+      "error_detail": "Archive requests require a personal token. Get one at: https://www.allnodes.com/publicnode",
+      "features": {
+        "buy_count": 0.0,
+        "event_density": 0.0,
+        "failure_count": 0.0,
+        "mid_price": 7.854688994147503e-16,
+        "ofi_net_flow": 0.0,
+        "price_impact_proxy": 0.0,
+        "reserve0": 1.4883197742204267e+32,
+        "reserve1": 1.1690288950341283e+17,
+        "sell_count": 0.0,
+        "swap_count": 0.0,
+        "token0_flow": 0.0,
+        "token1_flow": 0.0
+      },
+      "horizon_end": "2026-07-27T16:19:59+00:00",
+      "pool": {
+        "address": "0xd8f99de35d8a572450ea78a32b0051a8b026ee13",
+        "base_symbol": null,
+        "base_token": "0x0ea269c6eeea638d82137ac3c80cbe5a8377eaa3",
+        "dex_id": "pancakeswap_v2",
+        "dex_name": "PancakeSwap V2",
+        "display_only": true,
+        "liquidity_usd": null,
+        "network": "bsc",
+        "observed_at": "manual_selection",
+        "pair_name": null,
+        "provider_rank": 2,
+        "quote_symbol": null,
+        "quote_token": "0x55d398326f99059ff775485246999027b3197955",
+        "ranking_metric": "h24_volume_usd",
+        "ranking_provider": "manual",
+        "transactions_24h": null,
+        "volume_24h_usd": null
+      },
+      "prediction": {
+        "abstain": true,
+        "actions": [
+          "buy_quote_to_token",
+          "sell_token_to_quote",
+          "add_liquidity",
+          "remove_liquidity",
+          "transfer",
+          "no_observed_action",
+          "unknown"
+        ],
+        "calibration_status": "uncalibrated",
+        "feature_version": "bsc_microstructure.v0",
+        "intents": [
+          "accumulation",
+          "distribution",
+          "take_profit",
+          "stop_loss_or_exit",
+          "hedging",
+          "market_making_inventory",
+          "liquidity_migration",
+          "mev_extraction",
+          "inducement_manipulation_hypothesis",
+          "project_treasury_management",
+          "unknown_multi"
+        ],
+        "label_version": "none.v0",
+        "model_version": "none.v0",
+        "reason_codes": [
+          "source_unavailable"
+        ],
+        "roles": [
+          "lp_market_maker",
+          "information_driven",
+          "arbitrageur",
+          "momentum_speculator",
+          "mean_reversion",
+          "project_treasury",
+          "infrastructure",
+          "mev_candidate",
+          "forced_exit_candidate",
+          "unknown_mixed"
+        ]
+      },
+      "reason_codes": [
+        "source_unavailable"
+      ],
+      "recent_swaps": [],
+      "risk": {
+        "holder_concentration": "not_supported",
+        "honeypot_screen": "not_supported",
+        "lp_withdrawal": "not_supported",
+        "mint_authority": "not_supported",
+        "owner_control": "not_supported",
+        "pause_authority": "not_supported",
+        "sellability": "not_supported",
+        "token_transfer_restriction": "not_supported",
+        "transfer_tax": "not_supported"
+      },
+      "rpc_verified": true,
+      "target_definition": "next_observed_action",
+      "verification": {
+        "factory": "0xca143ce32fe78f1f7019d7d551a6402fc5350c73",
+        "reserve0": 148831977422042668267133079505991,
+        "reserve1": 116902889503412827,
+        "router": "0x10ed43c718714eb63d5aa57b78b54704e256024e",
+        "token0": "0x0ea269c6eeea638d82137ac3c80cbe5a8377eaa3",
+        "token1": "0x55d398326f99059ff775485246999027b3197955",
+        "verified": true
+      }
+    },
+    {
+      "data_cutoff": {
+        "block_number": 112464325,
+        "log_index": 0,
+        "transaction_index": 0
+      },
+      "decision": {
+        "paper": true,
+        "reason_codes": [
+          "insufficient_data"
+        ],
+        "status": "abstain"
+      },
+      "decision_time": "2026-07-27T16:14:59+00:00",
+      "error_detail": "curl: (28) Connection timed out after 8004 milliseconds",
+      "features": {
+        "buy_count": 0.0,
+        "event_density": 0.0,
+        "failure_count": 0.0,
+        "mid_price": 12394.120974721018,
+        "ofi_net_flow": 0.0,
+        "price_impact_proxy": 0.0,
+        "reserve0": 4.832370963343067e+22,
+        "reserve1": 5.989299031440312e+26,
+        "sell_count": 0.0,
+        "swap_count": 0.0,
+        "token0_flow": 0.0,
+        "token1_flow": 0.0
+      },
+      "horizon_end": "2026-07-27T16:19:59+00:00",
+      "pool": {
+        "address": "0x32a33376908b38d95e2715d28e129f776dad2a74",
+        "base_symbol": null,
+        "base_token": "0x55d398326f99059ff775485246999027b3197955",
+        "dex_id": "pancakeswap_v2",
+        "dex_name": "PancakeSwap V2",
+        "display_only": true,
+        "liquidity_usd": null,
+        "network": "bsc",
+        "observed_at": "manual_selection",
+        "pair_name": null,
+        "provider_rank": 3,
+        "quote_symbol": null,
+        "quote_token": "0xf3610dbfe8e3e469cbf8594ad9830efb12aa4444",
+        "ranking_metric": "h24_volume_usd",
+        "ranking_provider": "manual",
+        "transactions_24h": null,
+        "volume_24h_usd": null
+      },
+      "prediction": {
+        "abstain": true,
+        "actions": [
+          "buy_quote_to_token",
+          "sell_token_to_quote",
+          "add_liquidity",
+          "remove_liquidity",
+          "transfer",
+          "no_observed_action",
+          "unknown"
+        ],
+        "calibration_status": "uncalibrated",
+        "feature_version": "bsc_microstructure.v0",
+        "intents": [
+          "accumulation",
+          "distribution",
+          "take_profit",
+          "stop_loss_or_exit",
+          "hedging",
+          "market_making_inventory",
+          "liquidity_migration",
+          "mev_extraction",
+          "inducement_manipulation_hypothesis",
+          "project_treasury_management",
+          "unknown_multi"
+        ],
+        "label_version": "none.v0",
+        "model_version": "none.v0",
+        "reason_codes": [
+          "source_unavailable"
+        ],
+        "roles": [
+          "lp_market_maker",
+          "information_driven",
+          "arbitrageur",
+          "momentum_speculator",
+          "mean_reversion",
+          "project_treasury",
+          "infrastructure",
+          "mev_candidate",
+          "forced_exit_candidate",
+          "unknown_mixed"
+        ]
+      },
+      "reason_codes": [
+        "source_unavailable"
+      ],
+      "recent_swaps": [],
+      "risk": {
+        "holder_concentration": "not_supported",
+        "honeypot_screen": "not_supported",
+        "lp_withdrawal": "not_supported",
+        "mint_authority": "not_supported",
+        "owner_control": "not_supported",
+        "pause_authority": "not_supported",
+        "sellability": "not_supported",
+        "token_transfer_restriction": "not_supported",
+        "transfer_tax": "not_supported"
+      },
+      "rpc_verified": true,
+      "target_definition": "next_observed_action",
+      "verification": {
+        "factory": "0xca143ce32fe78f1f7019d7d551a6402fc5350c73",
+        "reserve0": 48323709633430666520343,
+        "reserve1": 598929903144031206703140534,
+        "router": "0x10ed43c718714eb63d5aa57b78b54704e256024e",
+        "token0": "0x55d398326f99059ff775485246999027b3197955",
+        "token1": "0xf3610dbfe8e3e469cbf8594ad9830efb12aa4444",
+        "verified": true
+      }
+    }
+  ],
+  "quality": "derived",
+  "ranking_metric": "h24_volume_usd",
+  "ranking_provider": "geckoterminal_bootstrap",
+  "reason_codes": [],
+  "rpc": {
+    "active_rpc_host": "1rpc.io",
+    "has_userinfo": false,
+    "rpc_fallback_count": 0,
+    "rpc_fingerprint": "3b4aea5ac3168d07",
+    "rpc_host": "1rpc.io",
+    "rpc_scheme": "https"
+  },
+  "run_id": "bsc-1785168903-4755c533",
+  "source": "geckoterminal+bsc_rpc"
+}

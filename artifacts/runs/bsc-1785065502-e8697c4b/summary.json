@@ -1,0 +1,125 @@
+{
+  "chain_id": 56,
+  "config": {
+    "confirmation_lag": 3,
+    "lookback_blocks": 40,
+    "mode": "spot_long_only",
+    "paper": true,
+    "top_k": 2
+  },
+  "decision_position": {
+    "block_number": 112234911,
+    "log_index": 2147483647,
+    "transaction_index": 2147483647
+  },
+  "decision_time": null,
+  "feature_version": "bsc_microstructure.v0",
+  "label_version": "none.v0",
+  "model_version": "none.v0",
+  "pools": [
+    {
+      "decision": {
+        "paper": true,
+        "reason_codes": [
+          "source_unavailable"
+        ],
+        "status": "abstain"
+      },
+      "error_detail": "curl: (6) Could not resolve host: bsc-rpc.publicnode.com",
+      "features": {},
+      "pool": {
+        "address": "0xd926c15150afc0301eb81b68ea3bc81e3f1adba3",
+        "base_symbol": "DCA",
+        "base_token": "0xb5297cf5c7cdaad2fd6db706b845e02d4a0bc194",
+        "dex_id": "pancakeswap_v2",
+        "dex_name": "PancakeSwap V2",
+        "display_only": true,
+        "liquidity_usd": 1692092.5599,
+        "network": "bsc",
+        "observed_at": "2026-07-26T10:57:31.938585+00:00",
+        "pair_name": "DCA / USDT",
+        "provider_rank": 1,
+        "quote_symbol": "USDT",
+        "quote_token": "0x55d398326f99059ff775485246999027b3197955",
+        "ranking_metric": "h24_volume_usd",
+        "ranking_provider": "geckoterminal_bootstrap",
+        "transactions_24h": 4316,
+        "volume_24h_usd": 633630193.301538
+      },
+      "reason_codes": [
+        "source_unavailable"
+      ],
+      "risk": {
+        "holder_concentration": "not_supported",
+        "honeypot_screen": "not_supported",
+        "lp_withdrawal": "not_supported",
+        "mint_authority": "not_supported",
+        "owner_control": "not_supported",
+        "pause_authority": "not_supported",
+        "sellability": "not_supported",
+        "token_transfer_restriction": "not_supported",
+        "transfer_tax": "not_supported"
+      },
+      "rpc_verified": false
+    },
+    {
+      "decision": {
+        "paper": true,
+        "reason_codes": [
+          "source_unavailable"
+        ],
+        "status": "abstain"
+      },
+      "error_detail": "curl: (6) Could not resolve host: bsc-rpc.publicnode.com",
+      "features": {},
+      "pool": {
+        "address": "0xa8d50dbee1c6dfd54a6a7ab10bfd2d52381d90c1",
+        "base_symbol": "TRUMP2028",
+        "base_token": "0x709dde70657a1d617e3bfdc590447c0ab3057493",
+        "dex_id": "pancakeswap_v2",
+        "dex_name": "PancakeSwap V2",
+        "display_only": true,
+        "liquidity_usd": 0.1141,
+        "network": "bsc",
+        "observed_at": "2026-07-26T10:57:31.938713+00:00",
+        "pair_name": "TRUMP2028 / USDT",
+        "provider_rank": 2,
+        "quote_symbol": "USDT",
+        "quote_token": "0x55d398326f99059ff775485246999027b3197955",
+        "ranking_metric": "h24_volume_usd",
+        "ranking_provider": "geckoterminal_bootstrap",
+        "transactions_24h": 8809,
+        "volume_24h_usd": 132156255.515992
+      },
+      "reason_codes": [
+        "source_unavailable"
+      ],
+      "risk": {
+        "holder_concentration": "not_supported",
+        "honeypot_screen": "not_supported",
+        "lp_withdrawal": "not_supported",
+        "mint_authority": "not_supported",
+        "owner_control": "not_supported",
+        "pause_authority": "not_supported",
+        "sellability": "not_supported",
+        "token_transfer_restriction": "not_supported",
+        "transfer_tax": "not_supported"
+      },
+      "rpc_verified": false
+    }
+  ],
+  "quality": "insufficient_data",
+  "ranking_metric": "h24_volume_usd",
+  "ranking_provider": "geckoterminal_bootstrap",
+  "reason_codes": [],
+  "rpc": {
+    "active_rpc_host": "1rpc.io",
+    "has_userinfo": false,
+    "rpc_fallback_count": 0,
+    "rpc_fingerprint": "3b4aea5ac3168d07",
+    "rpc_host": "1rpc.io",
+    "rpc_scheme": "https"
+  },
+  "run_id": "bsc-1785065502-e8697c4b",
+  "source": "geckoterminal+bsc_rpc"
+}

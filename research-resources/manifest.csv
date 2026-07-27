@@ -1,0 +1,20 @@
+type,title,year,local_path,source_url,doi_or_id,role_in_project,accessed
+paper,Universal features of price formation in financial markets: perspectives from Deep Learning,2018,research-resources/papers/sirignano-cont-2018.pdf,https://arxiv.org/abs/1803.06917,arXiv:1803.06917,shared microstructure representation,2026-07-28
+paper,DeepLOB: Deep Convolutional Neural Networks for Limit Order Books,2018,research-resources/papers/deeplob-2018.pdf,https://arxiv.org/abs/1808.03668,arXiv:1808.03668,sequence baseline,2026-07-28
+paper,BDLOB: Bayesian Deep Convolutional Neural Networks for Limit Order Books,2018,research-resources/papers/bdlob-2018.pdf,https://arxiv.org/abs/1811.10041,arXiv:1811.10041,uncertainty and abstention reference,2026-07-28
+paper,Flash Boys 2.0: Frontrunning in Decentralized Exchanges,2020,research-resources/papers/flash-boys-2-0-2020.pdf,https://arxiv.org/abs/1904.05234,10.1109/SP40000.2020.00040,DEX ordering and MEV labels,2026-07-28
+paper,ABIDES: Towards High-Fidelity Market Simulation for AI Research,2019,research-resources/papers/abides-2019.pdf,https://arxiv.org/abs/1904.12066,arXiv:1904.12066,multi-agent simulation reference,2026-07-28
+paper,D4RL: Datasets for Deep Data-Driven Reinforcement Learning,2020,research-resources/papers/d4rl-2020.pdf,https://arxiv.org/abs/2004.07219,arXiv:2004.07219,offline RL evaluation reference,2026-07-28
+paper,Conservative Q-Learning for Offline Reinforcement Learning,2020,research-resources/papers/cql-neurips-2020.pdf,https://proceedings.neurips.cc/paper/2020/hash/0d2b2061826a5df3221116a5085a6052-Abstract.html,NeurIPS 2020,offline RL candidate,2026-07-28
+paper,FinRL: A Deep Reinforcement Learning Library for Automated Stock Trading,2020,research-resources/papers/finrl-2020.pdf,https://arxiv.org/abs/2011.09607,arXiv:2011.09607,training and evaluation organization,2026-07-28
+paper,Market Making with Deep Reinforcement Learning from Limit Order Books,2023,research-resources/papers/market-making-lob-rl-2023.pdf,https://arxiv.org/abs/2305.15821,arXiv:2305.15821,state/action/reward design reference,2026-07-28
+paper,A Theory of Automated Market Makers in Decentralized Finance,2020,,https://lmcs.episciences.org/10504,LMCS 2020,AMM mechanism reference,2026-07-28
+paper,Uniswap v2 Core Whitepaper,2020,,https://docs.uniswap.org/whitepaper.pdf,,constant-product and pair mechanism reference,2026-07-28
+official,BNB Smart Chain JSON-RPC endpoints and API notes,,,https://docs.bnbchain.org/bnb-smart-chain/developers/json_rpc/json-rpc-endpoint/,,RPC and eth_getLogs capability,2026-07-28
+official,GeckoTerminal API FAQ and ranking notes,,,https://apiguide.geckoterminal.com/faq,,discovery and OHLCV limitations,2026-07-28
+official,Dune Data Catalog,,,https://docs.dune.com/data-catalog/overview,,BNB raw/decoded/curated data option,2026-07-28
+official,Bitquery BSC Parquet exports,,,https://docs.bitquery.io/docs/cloud/bsc/,,historical data lake option,2026-07-28
+official,BNB Chain node snapshots,,,https://github.com/bnb-chain/bsc-snapshots,,self-hosted archive option,2026-07-28
+official,Gymnasium documentation,,,https://gymnasium.farama.org/,,single-agent environment API,2026-07-28
+official,PettingZoo documentation and repository,,,https://github.com/Farama-Foundation/PettingZoo,,multi-agent environment API,2026-07-28
+official,CORL offline RL library paper,,,https://papers.neurips.cc/paper_files/paper/2023/hash/62d2cec62b7fd46dd35fa8f2d4aeb52-Abstract-Datasets_and_Benchmarks.html,,offline RL baselines,2026-07-28

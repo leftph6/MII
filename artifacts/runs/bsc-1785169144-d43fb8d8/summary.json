@@ -1,0 +1,474 @@
+{
+  "chain_id": 56,
+  "config": {
+    "confirmation_lag": 3,
+    "lookback_blocks": 40,
+    "mode": "spot_long_only",
+    "paper": true,
+    "top_k": 3
+  },
+  "decision_position": {
+    "block_number": 112464872,
+    "log_index": 2147483647,
+    "transaction_index": 2147483647
+  },
+  "decision_time": "2026-07-27T16:19:06+00:00",
+  "feature_version": "bsc_microstructure.v0",
+  "label_version": "none.v0",
+  "model_version": "none.v0",
+  "pools": [
+    {
+      "data_cutoff": {
+        "block_number": 112464870,
+        "log_index": 506,
+        "transaction_index": 98
+      },
+      "decision": {
+        "paper": true,
+        "reason_codes": [
+          "risk_unknown"
+        ],
+        "status": "no_trade"
+      },
+      "decision_time": "2026-07-27T16:19:06+00:00",
+      "features": {
+        "buy_count": 2.0,
+        "event_density": 0.075,
+        "failure_count": 0.0,
+        "mid_price": 47.12118876506589,
+        "ofi_net_flow": 1.0,
+        "price_impact_proxy": 0.0023285330243145563,
+        "reserve0": 6.375617389686851e+23,
+        "reserve1": 3.0042667051327077e+25,
+        "sell_count": 1.0,
+        "swap_count": 3.0,
+        "token0_flow": 1.484583564228e+21,
+        "token1_flow": -6.066462956634934e+22
+      },
+      "horizon_end": "2026-07-27T16:24:06+00:00",
+      "pool": {
+        "address": "0x141402b93584f72b1a56fdfa79fd600c73d2ecc8",
+        "base_symbol": null,
+        "base_token": "0x55d398326f99059ff775485246999027b3197955",
+        "dex_id": "pancakeswap_v2",
+        "dex_name": "PancakeSwap V2",
+        "display_only": true,
+        "liquidity_usd": null,
+        "network": "bsc",
+        "observed_at": "manual_selection",
+        "pair_name": null,
+        "provider_rank": 1,
+        "quote_symbol": null,
+        "quote_token": "0xaa4d469d07ea97b56eb860ca7bc6a498969245c4",
+        "ranking_metric": "h24_volume_usd",
+        "ranking_provider": "manual",
+        "transactions_24h": null,
+        "volume_24h_usd": null
+      },
+      "prediction": {
+        "abstain": true,
+        "actions": [
+          "buy_quote_to_token",
+          "sell_token_to_quote",
+          "add_liquidity",
+          "remove_liquidity",
+          "transfer",
+          "no_observed_action",
+          "unknown"
+        ],
+        "calibration_status": "uncalibrated",
+        "feature_version": "bsc_microstructure.v0",
+        "intents": [
+          "accumulation",
+          "distribution",
+          "take_profit",
+          "stop_loss_or_exit",
+          "hedging",
+          "market_making_inventory",
+          "liquidity_migration",
+          "mev_extraction",
+          "inducement_manipulation_hypothesis",
+          "project_treasury_management",
+          "unknown_multi"
+        ],
+        "label_version": "none.v0",
+        "model_version": "none.v0",
+        "reason_codes": [
+          "abstain_no_labels"
+        ],
+        "roles": [
+          "lp_market_maker",
+          "information_driven",
+          "arbitrageur",
+          "momentum_speculator",
+          "mean_reversion",
+          "project_treasury",
+          "infrastructure",
+          "mev_candidate",
+          "forced_exit_candidate",
+          "unknown_mixed"
+        ]
+      },
+      "reason_codes": [
+        "abstain_no_labels"
+      ],
+      "recent_swaps": [
+        {
+          "amount0_in": 0,
+          "amount0_out": 29092493515138000000000,
+          "amount1_in": 1391281436407909313366126,
+          "amount1_out": 0,
+          "block_number": 112464839,
+          "event_time": "2026-07-27T16:18:51+00:00",
+          "log_index": 255,
+          "transaction_index": 49
+        },
+        {
+          "amount0_in": 11768535595180000000000,
+          "amount0_out": 0,
+          "amount1_in": 0,
+          "amount1_out": 575459527892722669215655,
+          "block_number": 112464855,
+          "event_time": "2026-07-27T16:18:58+00:00",
+          "log_index": 362,
+          "transaction_index": 110
+        },
+        {
+          "amount0_in": 18808541484186000000000,
+          "amount0_out": 0,
+          "amount1_in": 0,
+          "amount1_out": 876486538081536163233563,
+          "block_number": 112464870,
+          "event_time": "2026-07-27T16:19:05+00:00",
+          "log_index": 506,
+          "transaction_index": 98
+        }
+      ],
+      "risk": {
+        "holder_concentration": "not_supported",
+        "honeypot_screen": "not_supported",
+        "lp_withdrawal": "not_supported",
+        "mint_authority": "not_supported",
+        "owner_control": "not_supported",
+        "pause_authority": "not_supported",
+        "sellability": "not_supported",
+        "token_transfer_restriction": "not_supported",
+        "transfer_tax": "not_supported"
+      },
+      "rpc_verified": true,
+      "target_definition": "next_observed_action",
+      "verification": {
+        "factory": "0xca143ce32fe78f1f7019d7d551a6402fc5350c73",
+        "reserve0": 637561738968685100966285,
+        "reserve1": 30042667051327079536854198,
+        "router": "0x10ed43c718714eb63d5aa57b78b54704e256024e",
+        "token0": "0x55d398326f99059ff775485246999027b3197955",
+        "token1": "0xaa4d469d07ea97b56eb860ca7bc6a498969245c4",
+        "verified": true
+      }
+    },
+    {
+      "data_cutoff": {
+        "block_number": 112464872,
+        "log_index": 0,
+        "transaction_index": 0
+      },
+      "decision": {
+        "paper": true,
+        "reason_codes": [
+          "insufficient_data"
+        ],
+        "status": "abstain"
+      },
+      "decision_time": "2026-07-27T16:19:06+00:00",
+      "features": {
+        "buy_count": 0.0,
+        "event_density": 0.0,
+        "failure_count": 0.0,
+        "mid_price": 7.854688994147503e-16,
+        "ofi_net_flow": 0.0,
+        "price_impact_proxy": 0.0,
+        "reserve0": 1.4883197742204267e+32,
+        "reserve1": 1.1690288950341283e+17,
+        "sell_count": 0.0,
+        "swap_count": 0.0,
+        "token0_flow": 0.0,
+        "token1_flow": 0.0
+      },
+      "horizon_end": "2026-07-27T16:24:06+00:00",
+      "pool": {
+        "address": "0xd8f99de35d8a572450ea78a32b0051a8b026ee13",
+        "base_symbol": null,
+        "base_token": "0x0ea269c6eeea638d82137ac3c80cbe5a8377eaa3",
+        "dex_id": "pancakeswap_v2",
+        "dex_name": "PancakeSwap V2",
+        "display_only": true,
+        "liquidity_usd": null,
+        "network": "bsc",
+        "observed_at": "manual_selection",
+        "pair_name": null,
+        "provider_rank": 2,
+        "quote_symbol": null,
+        "quote_token": "0x55d398326f99059ff775485246999027b3197955",
+        "ranking_metric": "h24_volume_usd",
+        "ranking_provider": "manual",
+        "transactions_24h": null,
+        "volume_24h_usd": null
+      },
+      "prediction": {
+        "abstain": true,
+        "actions": [
+          "buy_quote_to_token",
+          "sell_token_to_quote",
+          "add_liquidity",
+          "remove_liquidity",
+          "transfer",
+          "no_observed_action",
+          "unknown"
+        ],
+        "calibration_status": "uncalibrated",
+        "feature_version": "bsc_microstructure.v0",
+        "intents": [
+          "accumulation",
+          "distribution",
+          "take_profit",
+          "stop_loss_or_exit",
+          "hedging",
+          "market_making_inventory",
+          "liquidity_migration",
+          "mev_extraction",
+          "inducement_manipulation_hypothesis",
+          "project_treasury_management",
+          "unknown_multi"
+        ],
+        "label_version": "none.v0",
+        "model_version": "none.v0",
+        "reason_codes": [
+          "insufficient_data"
+        ],
+        "roles": [
+          "lp_market_maker",
+          "information_driven",
+          "arbitrageur",
+          "momentum_speculator",
+          "mean_reversion",
+          "project_treasury",
+          "infrastructure",
+          "mev_candidate",
+          "forced_exit_candidate",
+          "unknown_mixed"
+        ]
+      },
+      "reason_codes": [
+        "insufficient_data"
+      ],
+      "recent_swaps": [],
+      "risk": {
+        "holder_concentration": "not_supported",
+        "honeypot_screen": "not_supported",
+        "lp_withdrawal": "not_supported",
+        "mint_authority": "not_supported",
+        "owner_control": "not_supported",
+        "pause_authority": "not_supported",
+        "sellability": "not_supported",
+        "token_transfer_restriction": "not_supported",
+        "transfer_tax": "not_supported"
+      },
+      "rpc_verified": true,
+      "target_definition": "next_observed_action",
+      "verification": {
+        "factory": "0xca143ce32fe78f1f7019d7d551a6402fc5350c73",
+        "reserve0": 148831977422042668267133079505991,
+        "reserve1": 116902889503412827,
+        "router": "0x10ed43c718714eb63d5aa57b78b54704e256024e",
+        "token0": "0x0ea269c6eeea638d82137ac3c80cbe5a8377eaa3",
+        "token1": "0x55d398326f99059ff775485246999027b3197955",
+        "verified": true
+      }
+    },
+    {
+      "data_cutoff": {
+        "block_number": 112464860,
+        "log_index": 40,
+        "transaction_index": 6
+      },
+      "decision": {
+        "paper": true,
+        "reason_codes": [
+          "risk_unknown"
+        ],
+        "status": "no_trade"
+      },
+      "decision_time": "2026-07-27T16:19:06+00:00",
+      "features": {
+        "buy_count": 4.0,
+        "event_density": 0.125,
+        "failure_count": 0.0,
+        "mid_price": 12493.256500650366,
+        "ofi_net_flow": 3.0,
+        "price_impact_proxy": 0.0018688836351786905,
+        "reserve0": 4.8137856456933606e+22,
+        "reserve1": 6.0139858810796e+26,
+        "sell_count": 1.0,
+        "swap_count": 5.0,
+        "token0_flow": -8.996405216494407e+19,
+        "token1_flow": 1.1625360192579978e+24
+      },
+      "horizon_end": "2026-07-27T16:24:06+00:00",
+      "pool": {
+        "address": "0x32a33376908b38d95e2715d28e129f776dad2a74",
+        "base_symbol": null,
+        "base_token": "0x55d398326f99059ff775485246999027b3197955",
+        "dex_id": "pancakeswap_v2",
+        "dex_name": "PancakeSwap V2",
+        "display_only": true,
+        "liquidity_usd": null,
+        "network": "bsc",
+        "observed_at": "manual_selection",
+        "pair_name": null,
+        "provider_rank": 3,
+        "quote_symbol": null,
+        "quote_token": "0xf3610dbfe8e3e469cbf8594ad9830efb12aa4444",
+        "ranking_metric": "h24_volume_usd",
+        "ranking_provider": "manual",
+        "transactions_24h": null,
+        "volume_24h_usd": null
+      },
+      "prediction": {
+        "abstain": true,
+        "actions": [
+          "buy_quote_to_token",
+          "sell_token_to_quote",
+          "add_liquidity",
+          "remove_liquidity",
+          "transfer",
+          "no_observed_action",
+          "unknown"
+        ],
+        "calibration_status": "uncalibrated",
+        "feature_version": "bsc_microstructure.v0",
+        "intents": [
+          "accumulation",
+          "distribution",
+          "take_profit",
+          "stop_loss_or_exit",
+          "hedging",
+          "market_making_inventory",
+          "liquidity_migration",
+          "mev_extraction",
+          "inducement_manipulation_hypothesis",
+          "project_treasury_management",
+          "unknown_multi"
+        ],
+        "label_version": "none.v0",
+        "model_version": "none.v0",
+        "reason_codes": [
+          "abstain_no_labels"
+        ],
+        "roles": [
+          "lp_market_maker",
+          "information_driven",
+          "arbitrageur",
+          "momentum_speculator",
+          "mean_reversion",
+          "project_treasury",
+          "infrastructure",
+          "mev_candidate",
+          "forced_exit_candidate",
+          "unknown_mixed"
+        ]
+      },
+      "reason_codes": [
+        "abstain_no_labels"
+      ],
+      "recent_swaps": [
+        {
+          "amount0_in": 551180000000000000000,
+          "amount0_out": 0,
+          "amount1_in": 0,
+          "amount1_out": 6589063714328852643507415,
+          "block_number": 112464842,
+          "event_time": "2026-07-27T16:18:53+00:00",
+          "log_index": 348,
+          "transaction_index": 85
+        },
+        {
+          "amount0_in": 0,
+          "amount0_out": 1209164052164944105421,
+          "amount1_in": 14725724383625120864796672,
+          "amount1_out": 0,
+          "block_number": 112464847,
+          "event_time": "2026-07-27T16:18:55+00:00",
+          "log_index": 395,
+          "transaction_index": 74
+        },
+        {
+          "amount0_in": 496190000000000000000,
+          "amount0_out": 0,
+          "amount1_in": 0,
+          "amount1_out": 6101180382434035297720950,
+          "block_number": 112464860,
+          "event_time": "2026-07-27T16:19:01+00:00",
+          "log_index": 30,
+          "transaction_index": 4
+        },
+        {
+          "amount0_in": 1310000000000000000,
+          "amount0_out": 0,
+          "amount1_in": 0,
+          "amount1_out": 15943317766076313973503,
+          "block_number": 112464860,
+          "event_time": "2026-07-27T16:19:01+00:00",
+          "log_index": 35,
+          "transaction_index": 5
+        },
+        {
+          "amount0_in": 70520000000000000000,
+          "amount0_out": 0,
+          "amount1_in": 0,
+          "amount1_out": 857000949838158546993090,
+          "block_number": 112464860,
+          "event_time": "2026-07-27T16:19:01+00:00",
+          "log_index": 40,
+          "transaction_index": 6
+        }
+      ],
+      "risk": {
+        "holder_concentration": "not_supported",
+        "honeypot_screen": "not_supported",
+        "lp_withdrawal": "not_supported",
+        "mint_authority": "not_supported",
+        "owner_control": "not_supported",
+        "pause_authority": "not_supported",
+        "sellability": "not_supported",
+        "token_transfer_restriction": "not_supported",
+        "transfer_tax": "not_supported"
+      },
+      "rpc_verified": true,
+      "target_definition": "next_observed_action",
+      "verification": {
+        "factory": "0xca143ce32fe78f1f7019d7d551a6402fc5350c73",
+        "reserve0": 48137856456933609093733,
+        "reserve1": 601398588107960005211006533,
+        "router": "0x10ed43c718714eb63d5aa57b78b54704e256024e",
+        "token0": "0x55d398326f99059ff775485246999027b3197955",
+        "token1": "0xf3610dbfe8e3e469cbf8594ad9830efb12aa4444",
+        "verified": true
+      }
+    }
+  ],
+  "quality": "derived",
+  "ranking_metric": "h24_volume_usd",
+  "ranking_provider": "geckoterminal_bootstrap",
+  "reason_codes": [],
+  "rpc": {
+    "active_rpc_host": "1rpc.io",
+    "has_userinfo": false,
+    "rpc_fallback_count": 0,
+    "rpc_fingerprint": "3b4aea5ac3168d07",
+    "rpc_host": "1rpc.io",
+    "rpc_scheme": "https"
+  },
+  "run_id": "bsc-1785169144-d43fb8d8",
+  "source": "geckoterminal+bsc_rpc"
+}
