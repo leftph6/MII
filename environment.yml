@@ -1,0 +1,17 @@
+name: codex-engineering
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.12
+  - pip>=25,<26
+  - git>=2.49,<3
+  - jsonschema>=4.25,<5
+  - networkx>=3.5,<4
+  - pyyaml>=6,<7
+  - pytest>=8,<9
+  - pytest-cov>=6,<8
+  - ruff>=0.12,<1
+  - tmux>=3.5,<4
+  - pip:
+      - ./plugins/engineering-agent-kit/runtime
