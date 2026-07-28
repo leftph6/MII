@@ -1,0 +1,5 @@
+Command pair rerun after implementation:
+git -C /Users/mashengyu/Desktop/quant research/coinman-arbitrage-bot status --porcelain=v1
+git -C /Users/mashengyu/Desktop/quant research/coinman-arbitrage-bot diff --name-only
+
+Comparison result: byte-for-byte status/name output is unchanged from coinman-status-before.txt. The existing Coinman worktree already contained the recorded changes; this project did not write to it.

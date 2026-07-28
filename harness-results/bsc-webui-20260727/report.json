@@ -1,0 +1,406 @@
+{
+  "schema_version": 1,
+  "run_id": "23862f48171b490897850466078e5557",
+  "output_directory": "/Users/mashengyu/Desktop/quant research/market-intent-inference/harness-results/bsc-webui-20260727",
+  "name": "bsc-webui",
+  "generated_at": "2026-07-27T06:29:18+00:00",
+  "spec_sha256": "c31dd84de33e9d0ebe8f33e7f42c9d49008b99e61e69db8bdd1019a509a158af",
+  "root": "/Users/mashengyu/Desktop/quant research/market-intent-inference",
+  "required_environment": [],
+  "git": {
+    "captured_at": "2026-07-27T06:29:17+00:00",
+    "available": false
+  },
+  "runtime": {
+    "python": {
+      "version": "3.12.13",
+      "implementation": "CPython",
+      "executable": "/Users/mashengyu/miniforge3/envs/codex-engineering/bin/python",
+      "prefix": "/Users/mashengyu/miniforge3/envs/codex-engineering",
+      "base_prefix": "/Users/mashengyu/miniforge3/envs/codex-engineering"
+    },
+    "platform": "macOS-26.5-arm64-arm-64bit",
+    "system": "Darwin",
+    "release": "25.5.0",
+    "machine": "arm64",
+    "processor": "arm",
+    "conda": {
+      "default_environment": "codex-engineering",
+      "prefix": "/Users/mashengyu/miniforge3/envs/codex-engineering"
+    },
+    "fingerprint": "af05cb05f728b927ae1d8c946657f60936d83c6b3d2c9516687c6b85c95763f2",
+    "distributions": [
+      {
+        "name": "attrs",
+        "version": "26.1.0"
+      },
+      {
+        "name": "colorama",
+        "version": "0.4.6"
+      },
+      {
+        "name": "coverage",
+        "version": "7.15.2"
+      },
+      {
+        "name": "engineering-agent-runtime",
+        "version": "1.0.0"
+      },
+      {
+        "name": "exceptiongroup",
+        "version": "1.3.1"
+      },
+      {
+        "name": "iniconfig",
+        "version": "2.3.0"
+      },
+      {
+        "name": "jsonschema",
+        "version": "4.26.0"
+      },
+      {
+        "name": "jsonschema-specifications",
+        "version": "2025.9.1"
+      },
+      {
+        "name": "networkx",
+        "version": "3.6.1"
+      },
+      {
+        "name": "packaging",
+        "version": "26.2"
+      },
+      {
+        "name": "pip",
+        "version": "25.3"
+      },
+      {
+        "name": "pluggy",
+        "version": "1.6.0"
+      },
+      {
+        "name": "Pygments",
+        "version": "2.20.0"
+      },
+      {
+        "name": "pytest",
+        "version": "8.4.2"
+      },
+      {
+        "name": "pytest-cov",
+        "version": "7.1.0"
+      },
+      {
+        "name": "PyYAML",
+        "version": "6.0.3"
+      },
+      {
+        "name": "referencing",
+        "version": "0.37.0"
+      },
+      {
+        "name": "rpds-py",
+        "version": "2026.6.3"
+      },
+      {
+        "name": "ruff",
+        "version": "0.15.22"
+      },
+      {
+        "name": "setuptools",
+        "version": "83.0.0"
+      },
+      {
+        "name": "tomli",
+        "version": "2.4.1"
+      },
+      {
+        "name": "typing_extensions",
+        "version": "4.16.0"
+      },
+      {
+        "name": "wheel",
+        "version": "0.47.0"
+      }
+    ]
+  },
+  "tool_runtime": {
+    "python": {
+      "version": "3.12.13",
+      "implementation": "CPython",
+      "executable": "/Users/mashengyu/miniforge3/envs/codex-engineering/bin/python",
+      "prefix": "/Users/mashengyu/miniforge3/envs/codex-engineering",
+      "base_prefix": "/Users/mashengyu/miniforge3/envs/codex-engineering"
+    },
+    "platform": "macOS-26.5-arm64-arm-64bit",
+    "system": "Darwin",
+    "release": "25.5.0",
+    "machine": "arm64",
+    "processor": "arm",
+    "conda": {
+      "default_environment": "codex-engineering",
+      "prefix": "/Users/mashengyu/miniforge3/envs/codex-engineering"
+    },
+    "fingerprint": "af05cb05f728b927ae1d8c946657f60936d83c6b3d2c9516687c6b85c95763f2",
+    "distributions": [
+      {
+        "name": "attrs",
+        "version": "26.1.0"
+      },
+      {
+        "name": "colorama",
+        "version": "0.4.6"
+      },
+      {
+        "name": "coverage",
+        "version": "7.15.2"
+      },
+      {
+        "name": "engineering-agent-runtime",
+        "version": "1.0.0"
+      },
+      {
+        "name": "exceptiongroup",
+        "version": "1.3.1"
+      },
+      {
+        "name": "iniconfig",
+        "version": "2.3.0"
+      },
+      {
+        "name": "jsonschema",
+        "version": "4.26.0"
+      },
+      {
+        "name": "jsonschema-specifications",
+        "version": "2025.9.1"
+      },
+      {
+        "name": "networkx",
+        "version": "3.6.1"
+      },
+      {
+        "name": "packaging",
+        "version": "26.2"
+      },
+      {
+        "name": "pip",
+        "version": "25.3"
+      },
+      {
+        "name": "pluggy",
+        "version": "1.6.0"
+      },
+      {
+        "name": "Pygments",
+        "version": "2.20.0"
+      },
+      {
+        "name": "pytest",
+        "version": "8.4.2"
+      },
+      {
+        "name": "pytest-cov",
+        "version": "7.1.0"
+      },
+      {
+        "name": "PyYAML",
+        "version": "6.0.3"
+      },
+      {
+        "name": "referencing",
+        "version": "0.37.0"
+      },
+      {
+        "name": "rpds-py",
+        "version": "2026.6.3"
+      },
+      {
+        "name": "ruff",
+        "version": "0.15.22"
+      },
+      {
+        "name": "setuptools",
+        "version": "83.0.0"
+      },
+      {
+        "name": "tomli",
+        "version": "2.4.1"
+      },
+      {
+        "name": "typing_extensions",
+        "version": "4.16.0"
+      },
+      {
+        "name": "wheel",
+        "version": "0.47.0"
+      }
+    ]
+  },
+  "project_runtime": {
+    "configured": false,
+    "status": "not_applicable",
+    "passed": true,
+    "no_external_dependencies_reason": "The BSC WebUI acceptance suite uses local fixtures and fake transports; live GeckoTerminal/RPC smoke is explicitly separate.",
+    "fingerprint": "bedc3e047da8595000d4aafff2e9bd99b1292b84fdb881548ede077f59c49fe9",
+    "integrity": {
+      "status": "not_applicable",
+      "passed": true,
+      "failures": []
+    },
+    "dependency_snapshots": []
+  },
+  "passed": true,
+  "checks": [
+    {
+      "check_id": "unit-tests",
+      "passed": true,
+      "command": [
+        "/Users/mashengyu/miniforge3/envs/codex-engineering/bin/python",
+        "-m",
+        "pytest",
+        "-p",
+        "no:cacheprovider",
+        "-q"
+      ],
+      "cwd": "/Users/mashengyu/Desktop/quant research/market-intent-inference",
+      "exit_code": 0,
+      "duration_seconds": 0.657582,
+      "timed_out": false,
+      "failures": [],
+      "stdout": "..............................                                           [100%]\n30 passed in 0.09s\n",
+      "stderr": "",
+      "stdout_sha256": "aae06057bdf12f086771094a014295687848263784dc6086070bd54f87f00559",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_size_bytes": 99,
+      "stderr_size_bytes": 0,
+      "stdout_truncated": false,
+      "stderr_truncated": false,
+      "warmup_runs": 0,
+      "repeat_runs": 1,
+      "warmup_samples": [],
+      "samples": [
+        {
+          "phase": "measure",
+          "run_index": 1,
+          "exit_code": 0,
+          "duration_seconds": 0.657582,
+          "timed_out": false,
+          "failures": [],
+          "stdout": "..............................                                           [100%]\n30 passed in 0.09s\n",
+          "stderr": "",
+          "stdout_sha256": "aae06057bdf12f086771094a014295687848263784dc6086070bd54f87f00559",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_size_bytes": 99,
+          "stderr_size_bytes": 0,
+          "stdout_truncated": false,
+          "stderr_truncated": false
+        }
+      ],
+      "duration_median_seconds": 0.657582,
+      "duration_p95_seconds": 0.657582,
+      "baseline_median_seconds": null,
+      "max_regression_percent": null,
+      "regression_percent": null
+    },
+    {
+      "check_id": "compile",
+      "passed": true,
+      "command": [
+        "/Users/mashengyu/miniforge3/envs/codex-engineering/bin/python",
+        "-m",
+        "compileall",
+        "-q",
+        "src",
+        "tests",
+        "scripts"
+      ],
+      "cwd": "/Users/mashengyu/Desktop/quant research/market-intent-inference",
+      "exit_code": 0,
+      "duration_seconds": 0.21477,
+      "timed_out": false,
+      "failures": [],
+      "stdout": "",
+      "stderr": "",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_size_bytes": 0,
+      "stderr_size_bytes": 0,
+      "stdout_truncated": false,
+      "stderr_truncated": false,
+      "warmup_runs": 0,
+      "repeat_runs": 1,
+      "warmup_samples": [],
+      "samples": [
+        {
+          "phase": "measure",
+          "run_index": 1,
+          "exit_code": 0,
+          "duration_seconds": 0.21477,
+          "timed_out": false,
+          "failures": [],
+          "stdout": "",
+          "stderr": "",
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_size_bytes": 0,
+          "stderr_size_bytes": 0,
+          "stdout_truncated": false,
+          "stderr_truncated": false
+        }
+      ],
+      "duration_median_seconds": 0.21477,
+      "duration_p95_seconds": 0.21477,
+      "baseline_median_seconds": null,
+      "max_regression_percent": null,
+      "regression_percent": null
+    },
+    {
+      "check_id": "security-boundary",
+      "passed": true,
+      "command": [
+        "/Users/mashengyu/miniforge3/envs/codex-engineering/bin/python",
+        "scripts/check_security.py"
+      ],
+      "cwd": "/Users/mashengyu/Desktop/quant research/market-intent-inference",
+      "exit_code": 0,
+      "duration_seconds": 0.184467,
+      "timed_out": false,
+      "failures": [],
+      "stdout": "security_boundary_ok\n",
+      "stderr": "",
+      "stdout_sha256": "601ae2734ca6e74a0b37946183395a26726ca65897aa034dbd7c34ac1a996a61",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_size_bytes": 21,
+      "stderr_size_bytes": 0,
+      "stdout_truncated": false,
+      "stderr_truncated": false,
+      "warmup_runs": 0,
+      "repeat_runs": 1,
+      "warmup_samples": [],
+      "samples": [
+        {
+          "phase": "measure",
+          "run_index": 1,
+          "exit_code": 0,
+          "duration_seconds": 0.184467,
+          "timed_out": false,
+          "failures": [],
+          "stdout": "security_boundary_ok\n",
+          "stderr": "",
+          "stdout_sha256": "601ae2734ca6e74a0b37946183395a26726ca65897aa034dbd7c34ac1a996a61",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_size_bytes": 21,
+          "stderr_size_bytes": 0,
+          "stdout_truncated": false,
+          "stderr_truncated": false
+        }
+      ],
+      "duration_median_seconds": 0.184467,
+      "duration_p95_seconds": 0.184467,
+      "baseline_median_seconds": null,
+      "max_regression_percent": null,
+      "regression_percent": null
+    }
+  ]
+}

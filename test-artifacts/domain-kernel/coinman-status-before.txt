@@ -1,0 +1,130 @@
+Command: git -C /Users/mashengyu/Desktop/quant research/coinman-arbitrage-bot status --porcelain=v1
+ M .gitignore
+ M Dockerfile
+ M MIGRATION.md
+ M PROJECT_GUIDELINES.md
+ M README.md
+ M VIDEO_STACK.md
+ M app/__init__.py
+RM app/backtest.py -> app/application/backtest.py
+RM app/agents.py -> app/application/research.py
+RM app/bot.py -> app/application/trading_bot.py
+RM app/settings.py -> app/config/settings.py
+RM app/strategy.py -> app/domain/cex_strategy.py
+RM app/market_filters.py -> app/domain/market_filters.py
+R  app/schemas.py -> app/domain/models.py
+RM app/oms.py -> app/domain/oms.py
+RM app/prediction_strategy.py -> app/domain/prediction_strategy.py
+RM app/risk.py -> app/domain/risk.py
+RM app/env_config.py -> app/infrastructure/env_config.py
+RM app/exchange.py -> app/infrastructure/exchanges.py
+RM app/intelligence.py -> app/infrastructure/intelligence.py
+RM app/llm_router.py -> app/infrastructure/llm_router.py
+RM app/pipeline.py -> app/infrastructure/pipeline.py
+RM app/polymarket.py -> app/infrastructure/polymarket.py
+RM app/polymarket_execution.py -> app/infrastructure/polymarket_execution.py
+RM app/storage.py -> app/infrastructure/storage.py
+ M app/main.py
+ M app/video_stack.py
+ M tests/test_env_config.py
+ M tests/test_live_oms_agent_memory.py
+ M tests/test_llm_router.py
+ M tests/test_oms_backtest_intelligence.py
+ M tests/test_polymarket_gateway.py
+ M tests/test_prediction_strategy.py
+ M tests/test_risk.py
+ M tests/test_strategy.py
+?? AGENTS.md
+?? PROJECT_ENGINEERING_PROMPT.md
+?? app/agents.py
+?? app/api/
+?? app/application/__init__.py
+?? app/application/cex_scanner.py
+?? app/application/experiment_config.py
+?? app/application/llm.py
+?? app/application/ports.py
+?? app/application/prompts/
+?? app/application/read_models.py
+?? app/application/run_context.py
+?? app/application/runtime.py
+?? app/backtest.py
+?? app/bot.py
+?? app/config/__init__.py
+?? app/config/values.py
+?? app/domain/__init__.py
+?? app/domain/errors.py
+?? app/domain/ports.py
+?? app/env_config.py
+?? app/exchange.py
+?? app/infrastructure/__init__.py
+?? app/infrastructure/agent_evidence.py
+?? app/infrastructure/event_envelope.py
+?? app/infrastructure/observability.py
+?? app/infrastructure/repositories/
+?? app/intelligence.py
+?? app/llm_router.py
+?? app/market_filters.py
+?? app/oms.py
+?? app/pipeline.py
+?? app/polymarket.py
+?? app/polymarket_execution.py
+?? app/risk.py
+?? app/schemas.py
+?? app/settings.py
+?? app/storage.py
+?? app/strategy.py
+?? docker-compose.paper.yml
+?? docs/
+?? engineering_system_prompt.template.md
+?? evals/
+?? requirements.lock
+?? requirements.lock.sha256
+?? research-wiki/
+?? scripts/paper_smoke.py
+?? scripts/render_graph_html.py
+?? scripts/verify_artifacts.py
+?? test-artifacts/
+?? tests/test_agent_evidence.py
+?? tests/test_api_lifecycle.py
+?? tests/test_event_governance.py
+?? tests/test_execution_safety.py
+?? tests/test_llm_governance.py
+?? tests/test_public_contracts.py
+?? tests/test_research_orchestration.py
+?? tests/test_run_context.py
+
+Command: git -C /Users/mashengyu/Desktop/quant research/coinman-arbitrage-bot diff --name-only
+.gitignore
+Dockerfile
+MIGRATION.md
+PROJECT_GUIDELINES.md
+README.md
+VIDEO_STACK.md
+app/__init__.py
+app/application/backtest.py
+app/application/research.py
+app/application/trading_bot.py
+app/config/settings.py
+app/domain/cex_strategy.py
+app/domain/market_filters.py
+app/domain/oms.py
+app/domain/prediction_strategy.py
+app/domain/risk.py
+app/infrastructure/env_config.py
+app/infrastructure/exchanges.py
+app/infrastructure/intelligence.py
+app/infrastructure/llm_router.py
+app/infrastructure/pipeline.py
+app/infrastructure/polymarket.py
+app/infrastructure/polymarket_execution.py
+app/infrastructure/storage.py
+app/main.py
+app/video_stack.py
+tests/test_env_config.py
+tests/test_live_oms_agent_memory.py
+tests/test_llm_router.py
+tests/test_oms_backtest_intelligence.py
+tests/test_polymarket_gateway.py
+tests/test_prediction_strategy.py
+tests/test_risk.py
+tests/test_strategy.py

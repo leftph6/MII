@@ -1,0 +1,125 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.codex.invalid/research-wiki/edges.schema.json",
+  "title": "Research Wiki edges",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "directed",
+    "multigraph",
+    "graph",
+    "nodes",
+    "edges"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "directed": {
+      "const": true
+    },
+    "multigraph": {
+      "const": true
+    },
+    "graph": {
+      "type": "object",
+      "required": [
+        "name",
+        "schema_version"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "const": "research-wiki"
+        },
+        "schema_version": {
+          "const": 1
+        }
+      }
+    },
+    "nodes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "collection",
+          "title",
+          "path"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9_-]{0,127}$"
+          },
+          "collection": {
+            "enum": [
+              "papers",
+              "ideas",
+              "experiments",
+              "claims",
+              "gaps",
+              "designs",
+              "findings",
+              "adrs",
+              "plans",
+              "reviews",
+              "schemas",
+              "metrics"
+            ]
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "path": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "edges": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "source",
+          "relation",
+          "target",
+          "key",
+          "created_at",
+          "metadata"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "source": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9_-]{0,127}$"
+          },
+          "relation": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_.:-]{0,63}$"
+          },
+          "key": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_.:-]{0,63}$"
+          },
+          "target": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9_-]{0,127}$"
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "metadata": {
+            "type": "object"
+          }
+        }
+      }
+    }
+  }
+}

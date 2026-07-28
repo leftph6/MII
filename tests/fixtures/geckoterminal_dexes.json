@@ -1,0 +1,9 @@
+{
+  "data": [
+    {
+      "id": "pancakeswap_v2",
+      "type": "dex",
+      "attributes": {"name": "PancakeSwap V2"}
+    }
+  ]
+}

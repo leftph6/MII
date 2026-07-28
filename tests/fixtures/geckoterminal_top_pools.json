@@ -1,0 +1,82 @@
+{
+  "data": [
+    {
+      "id": "bsc_0x0000000000000000000000000000000000000001",
+      "type": "pool",
+      "attributes": {
+        "address": "0x0000000000000000000000000000000000000001",
+        "name": "AAA / WBNB",
+        "volume_usd": {"h24": "3000"},
+        "reserve_in_usd": "10000",
+        "transactions": {"h24": {"buys": 10, "sells": 8}},
+        "updated_at": "2026-07-26T00:00:00Z"
+      },
+      "relationships": {
+        "base_token": {"data": {"id": "bsc_0x0000000000000000000000000000000000000011", "type": "token"}},
+        "quote_token": {"data": {"id": "bsc_0x0000000000000000000000000000000000000022", "type": "token"}},
+        "dex": {"data": {"id": "pancakeswap_v2", "type": "dex"}}
+      }
+    },
+    {
+      "id": "bsc_0x0000000000000000000000000000000000000002",
+      "type": "pool",
+      "attributes": {
+        "address": "0x0000000000000000000000000000000000000002",
+        "name": "BBB / WBNB",
+        "volume_usd": {"h24": "2000"},
+        "reserve_in_usd": "9000",
+        "transactions": {"h24": {"buys": 7, "sells": 6}},
+        "updated_at": "2026-07-26T00:00:00Z"
+      },
+      "relationships": {
+        "base_token": {"data": {"id": "bsc_0x0000000000000000000000000000000000000012", "type": "token"}},
+        "quote_token": {"data": {"id": "bsc_0x0000000000000000000000000000000000000022", "type": "token"}},
+        "dex": {"data": {"id": "pancakeswap_v2", "type": "dex"}}
+      }
+    },
+    {
+      "id": "bsc_0x0000000000000000000000000000000000000003",
+      "type": "pool",
+      "attributes": {
+        "address": "0x0000000000000000000000000000000000000003",
+        "name": "CCC / WBNB",
+        "volume_usd": {"h24": "1000"},
+        "reserve_in_usd": "8000",
+        "transactions": {"h24": {"buys": 4, "sells": 5}},
+        "updated_at": "2026-07-26T00:00:00Z"
+      },
+      "relationships": {
+        "base_token": {"data": {"id": "bsc_0x0000000000000000000000000000000000000013", "type": "token"}},
+        "quote_token": {"data": {"id": "bsc_0x0000000000000000000000000000000000000022", "type": "token"}},
+        "dex": {"data": {"id": "pancakeswap_v2", "type": "dex"}}
+      }
+    }
+  ],
+  "included": [
+    {
+      "id": "bsc_0x0000000000000000000000000000000000000011",
+      "type": "token",
+      "attributes": {"address": "0x0000000000000000000000000000000000000011", "symbol": "AAA", "name": "Token AAA", "decimals": 18}
+    },
+    {
+      "id": "bsc_0x0000000000000000000000000000000000000012",
+      "type": "token",
+      "attributes": {"address": "0x0000000000000000000000000000000000000012", "symbol": "BBB", "name": "Token BBB", "decimals": 18}
+    },
+    {
+      "id": "bsc_0x0000000000000000000000000000000000000013",
+      "type": "token",
+      "attributes": {"address": "0x0000000000000000000000000000000000000013", "symbol": "CCC", "name": "Token CCC", "decimals": 18}
+    },
+    {
+      "id": "bsc_0x0000000000000000000000000000000000000022",
+      "type": "token",
+      "attributes": {"address": "0x0000000000000000000000000000000000000022", "symbol": "WBNB", "name": "Wrapped BNB", "decimals": 18}
+    },
+    {
+      "id": "pancakeswap_v2",
+      "type": "dex",
+      "attributes": {"name": "PancakeSwap V2"}
+    }
+  ]
+}

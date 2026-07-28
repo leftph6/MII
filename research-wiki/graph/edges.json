@@ -1,0 +1,320 @@
+{
+  "schema_version": 1,
+  "directed": true,
+  "multigraph": true,
+  "graph": {
+    "name": "research-wiki",
+    "schema_version": 1
+  },
+  "nodes": [
+    {
+      "id": "claim-offline-before-online-rl-20260728",
+      "collection": "claims",
+      "title": "Offline RL should precede online RL in this project",
+      "path": "claims/claim-offline-before-online-rl-20260728.md"
+    },
+    {
+      "id": "design-bsc-webui-v0-1",
+      "collection": "designs",
+      "title": "BSC WebUI and on-chain data flow v0.1",
+      "path": "designs/design-bsc-webui-v0-1.md"
+    },
+    {
+      "id": "design-market-intent-inference-v0",
+      "collection": "designs",
+      "title": "Market Intent Inference 基础框架与 BSC MVP 设计",
+      "path": "designs/design-market-intent-inference-v0.md"
+    },
+    {
+      "id": "design-training-framework-20260728",
+      "collection": "designs",
+      "title": "Time-safe posterior and offline-RL training framework",
+      "path": "designs/design-training-framework-20260728.md"
+    },
+    {
+      "id": "finding-coinman-isolation-anomaly-20260725",
+      "collection": "findings",
+      "title": "Coinman isolation anomaly 2026-07-25",
+      "path": "findings/finding-coinman-isolation-anomaly-20260725.md"
+    },
+    {
+      "id": "gap-bsc-latent-intent-20260728",
+      "collection": "gaps",
+      "title": "BSC AMM role and intent labels are not validated",
+      "path": "gaps/gap-bsc-latent-intent-20260728.md"
+    },
+    {
+      "id": "paper-abides-2019",
+      "collection": "papers",
+      "title": "ABIDES: Towards High-Fidelity Multi-Agent Market Simulation",
+      "path": "papers/paper-abides-2019.md"
+    },
+    {
+      "id": "paper-agent-identifiability-2021",
+      "collection": "papers",
+      "title": "Characterizing key agents in the cryptocurrency economy through blockchain transaction analysis",
+      "path": "papers/paper-agent-identifiability-2021.md"
+    },
+    {
+      "id": "paper-bdlob-2018",
+      "collection": "papers",
+      "title": "Bayesian Deep Limit Order Book",
+      "path": "papers/paper-bdlob-2018.md"
+    },
+    {
+      "id": "paper-cont-ofi-2014",
+      "collection": "papers",
+      "title": "The Price Impact of Order Book Events",
+      "path": "papers/paper-cont-ofi-2014.md"
+    },
+    {
+      "id": "paper-cql-neurips-2020",
+      "collection": "papers",
+      "title": "Conservative Q-Learning for Offline Reinforcement Learning",
+      "path": "papers/paper-cql-neurips-2020.md"
+    },
+    {
+      "id": "paper-d4rl-2020",
+      "collection": "papers",
+      "title": "D4RL: Datasets for Deep Data-Driven Reinforcement Learning",
+      "path": "papers/paper-d4rl-2020.md"
+    },
+    {
+      "id": "paper-deeplob-2018",
+      "collection": "papers",
+      "title": "DeepLOB: Deep Convolutional Neural Networks for Limit Order Books",
+      "path": "papers/paper-deeplob-2018.md"
+    },
+    {
+      "id": "paper-finrl-2020",
+      "collection": "papers",
+      "title": "FinRL: A Deep Reinforcement Learning Library for Automated Stock Trading",
+      "path": "papers/paper-finrl-2020.md"
+    },
+    {
+      "id": "paper-flash-boys-2019",
+      "collection": "papers",
+      "title": "Flash Boys 2.0",
+      "path": "papers/paper-flash-boys-2019.md"
+    },
+    {
+      "id": "paper-kyle-1985",
+      "collection": "papers",
+      "title": "Continuous Auctions and Insider Trading",
+      "path": "papers/paper-kyle-1985.md"
+    },
+    {
+      "id": "paper-sirignano-cont-2018",
+      "collection": "papers",
+      "title": "Universal Features of Price Formation",
+      "path": "papers/paper-sirignano-cont-2018.md"
+    },
+    {
+      "id": "paper-uniswap-v2-2020",
+      "collection": "papers",
+      "title": "Uniswap v2 Core",
+      "path": "papers/paper-uniswap-v2-2020.md"
+    },
+    {
+      "id": "plan-bsc-webui-20260726",
+      "collection": "plans",
+      "title": "BSC WebUI 与链上只读闭环实施计划 v0.1",
+      "path": "plans/plan-bsc-webui-20260726.md"
+    },
+    {
+      "id": "plan-domain-kernel-20260725",
+      "collection": "plans",
+      "title": "Domain kernel implementation plan 2026-07-25",
+      "path": "plans/plan-domain-kernel-20260725.md"
+    },
+    {
+      "id": "review-bsc-webui-code-20260726",
+      "collection": "reviews",
+      "title": "BSC WebUI implementation code review 2026-07-26",
+      "path": "reviews/review-bsc-webui-code-20260726.md"
+    },
+    {
+      "id": "review-bsc-webui-code-review-fix-20260727",
+      "collection": "reviews",
+      "title": "BSC WebUI 代码审查修复复审",
+      "path": "reviews/review-bsc-webui-code-review-fix-20260727.md"
+    },
+    {
+      "id": "review-bsc-webui-design-20260726",
+      "collection": "reviews",
+      "title": "BSC WebUI design review 2026-07-26",
+      "path": "reviews/review-bsc-webui-design-20260726.md"
+    },
+    {
+      "id": "review-bsc-webui-plan-20260726",
+      "collection": "reviews",
+      "title": "BSC WebUI 实施计划独立审查",
+      "path": "reviews/review-bsc-webui-plan-20260726.md"
+    },
+    {
+      "id": "review-code-fix-20260725",
+      "collection": "reviews",
+      "title": "Domain kernel code review and fix 2026-07-25",
+      "path": "reviews/review-code-fix-20260725.md"
+    },
+    {
+      "id": "review-design-20260725",
+      "collection": "reviews",
+      "title": "Market Intent Inference 独立设计审查",
+      "path": "reviews/review-design-20260725.md"
+    },
+    {
+      "id": "review-plan-final-20260725",
+      "collection": "reviews",
+      "title": "Implementation plan review 2026-07-25",
+      "path": "reviews/review-plan-final-20260725.md"
+    },
+    {
+      "id": "review-training-framework-independent-20260728",
+      "collection": "reviews",
+      "title": "Training framework independent review",
+      "path": "reviews/review-training-framework-independent-20260728.md"
+    },
+    {
+      "id": "schema-bsc-webui-log-v0-1",
+      "collection": "schemas",
+      "title": "BSC WebUI structured event schema v0.1",
+      "path": "schemas/schema-bsc-webui-log-v0-1.md"
+    },
+    {
+      "id": "schema-domain-contract-v0",
+      "collection": "schemas",
+      "title": "领域契约 v0",
+      "path": "schemas/schema-domain-contract-v0.md"
+    },
+    {
+      "id": "schema-domain-contract-v0-1",
+      "collection": "schemas",
+      "title": "领域契约 v0.1（首个领域内核）",
+      "path": "schemas/schema-domain-contract-v0-1.md"
+    }
+  ],
+  "edges": [
+    {
+      "source": "paper-abides-2019",
+      "relation": "supports",
+      "target": "claim-offline-before-online-rl-20260728",
+      "key": "supports",
+      "created_at": "2026-07-27T17:35:40Z",
+      "metadata": {
+        "rationale": "Simulator layer should be explicit and event-driven",
+        "source": "literature-review-20260728"
+      }
+    },
+    {
+      "source": "paper-cql-neurips-2020",
+      "relation": "supports",
+      "target": "claim-offline-before-online-rl-20260728",
+      "key": "supports",
+      "created_at": "2026-07-27T17:35:39Z",
+      "metadata": {
+        "rationale": "Conservative offline value estimation",
+        "source": "literature-review-20260728"
+      }
+    },
+    {
+      "source": "paper-d4rl-2020",
+      "relation": "supports",
+      "target": "claim-offline-before-online-rl-20260728",
+      "key": "supports",
+      "created_at": "2026-07-27T17:35:38Z",
+      "metadata": {
+        "rationale": "Static dataset support and distribution shift",
+        "source": "literature-review-20260728"
+      }
+    },
+    {
+      "source": "plan-bsc-webui-20260726",
+      "relation": "implements",
+      "target": "design-bsc-webui-v0-1",
+      "key": "implements",
+      "created_at": "2026-07-25T16:30:45Z",
+      "metadata": {}
+    },
+    {
+      "source": "plan-bsc-webui-20260726",
+      "relation": "implements",
+      "target": "schema-bsc-webui-log-v0-1",
+      "key": "implements",
+      "created_at": "2026-07-25T16:30:45Z",
+      "metadata": {}
+    },
+    {
+      "source": "plan-domain-kernel-20260725",
+      "relation": "implements",
+      "target": "design-market-intent-inference-v0",
+      "key": "implements",
+      "created_at": "2026-07-25T14:23:28Z",
+      "metadata": {}
+    },
+    {
+      "source": "plan-domain-kernel-20260725",
+      "relation": "implements",
+      "target": "schema-domain-contract-v0-1",
+      "key": "implements",
+      "created_at": "2026-07-25T15:12:06Z",
+      "metadata": {}
+    },
+    {
+      "source": "review-bsc-webui-code-20260726",
+      "relation": "reviews",
+      "target": "plan-bsc-webui-20260726",
+      "key": "reviews",
+      "created_at": "2026-07-26T07:54:34Z",
+      "metadata": {}
+    },
+    {
+      "source": "review-bsc-webui-code-review-fix-20260727",
+      "relation": "verifies",
+      "target": "plan-bsc-webui-20260726",
+      "key": "verifies",
+      "created_at": "2026-07-27T15:38:37Z",
+      "metadata": {}
+    },
+    {
+      "source": "review-bsc-webui-design-20260726",
+      "relation": "reviews",
+      "target": "design-bsc-webui-v0-1",
+      "key": "reviews",
+      "created_at": "2026-07-25T16:21:38Z",
+      "metadata": {}
+    },
+    {
+      "source": "review-code-fix-20260725",
+      "relation": "reviews",
+      "target": "plan-domain-kernel-20260725",
+      "key": "reviews",
+      "created_at": "2026-07-25T15:58:10Z",
+      "metadata": {}
+    },
+    {
+      "source": "review-design-20260725",
+      "relation": "reviews",
+      "target": "design-market-intent-inference-v0",
+      "key": "reviews",
+      "created_at": "2026-07-25T14:23:29Z",
+      "metadata": {}
+    },
+    {
+      "source": "review-plan-final-20260725",
+      "relation": "reviews",
+      "target": "plan-domain-kernel-20260725",
+      "key": "reviews",
+      "created_at": "2026-07-25T15:12:05Z",
+      "metadata": {}
+    },
+    {
+      "source": "schema-bsc-webui-log-v0-1",
+      "relation": "constrains",
+      "target": "design-bsc-webui-v0-1",
+      "key": "constrains",
+      "created_at": "2026-07-25T16:12:45Z",
+      "metadata": {}
+    }
+  ]
+}
