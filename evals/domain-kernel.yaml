@@ -1,0 +1,20 @@
+version: 1
+name: domain-kernel
+root: ..
+timeout_seconds: 60
+no_external_dependencies_reason: "The first domain kernel is intentionally deterministic and offline; fixtures are local."
+checks:
+  - id: unit-tests
+    command: ["/Users/mashengyu/miniforge3/envs/codex-engineering/bin/python", "-m", "pytest", "-q"]
+    expected_exit_code: 0
+    stdout_contains: ["passed"]
+    stdout_not_contains: ["FAILED", "ERROR"]
+  - id: compile
+    command: ["/Users/mashengyu/miniforge3/envs/codex-engineering/bin/python", "-m", "compileall", "-q", "src", "tests"]
+    expected_exit_code: 0
+    stdout_not_contains: ["Traceback", "Error"]
+  - id: security-boundary
+    command: ["/Users/mashengyu/miniforge3/envs/codex-engineering/bin/python", "scripts/check_security.py"]
+    expected_exit_code: 0
+    stdout_contains: ["security_boundary_ok"]
+    stdout_not_contains: ["forbidden"]
